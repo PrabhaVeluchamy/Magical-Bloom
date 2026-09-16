@@ -1,68 +1,80 @@
 # 🌸 MagicBloom
 
-MagicBloom is a real-time Computer Vision project developed using Python, OpenCV, and MediaPipe.
+MagicBloom is a Python-based creative computer-vision project that combines hand-tracking interaction with animated flowers, particles, and visual effects.
 
-The application detects two hands through the webcam and displays a flower between the hands. The flower grows as the distance between the hands increases and shrinks as the hands come closer together.
-
----
+The project explores interactive digital experiences using Python, computer vision, and graphical rendering.
 
 ## ✨ Features
 
-- 👋 Real-time hand tracking using MediaPipe
-- 🌸 Flower displayed between two hands
-- 🌱 Flower size changes based on hand distance
-- 🎥 Live webcam feed
-- ⚡ Lightweight and easy to run
+* Hand-tracking-based interaction
+* Animated flower visuals
+* Particle effects
+* Interactive graphical rendering
+* Modular Python project structure
+* Creative computer-vision experience
 
----
+## 🛠️ Technologies Used
 
-## 🛠 Technologies Used
-
-- Python 3.11
-- OpenCV
-- MediaPipe
-- NumPy
-
----
+* Python
+* OpenCV
+* MediaPipe
+* Pygame
+* Computer Vision
+* Particle Animation
 
 ## 📁 Project Structure
 
-```
+```text
 MagicBloom/
 │
 ├── assets/
 │   └── flower.png
 │
-├── hand_tracker.py
+├── animation.py
 ├── flower.py
+├── hand_tracker.py
 ├── main.py
+├── particles.py
+├── renderer.py
+├── utils.py
 ├── requirements.txt
+├── .gitignore
 └── README.md
 ```
 
----
-
-## 📦 Installation
+## ⚙️ Installation
 
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/yourusername/MagicBloom.git
+git clone https://github.com/PrabhaVeluchamy/Magical-Bloom.git
 ```
 
-### 2. Go to the project directory
+### 2. Open the project folder
 
 ```bash
-cd MagicBloom
+cd Magical-Bloom
 ```
 
-### 3. Install dependencies
+### 3. Create a virtual environment
+
+```bash
+python -m venv .venv
+```
+
+### 4. Activate the virtual environment
+
+**Windows PowerShell:**
+
+```powershell
+.venv\Scripts\Activate.ps1
+```
+
+### 5. Install dependencies
 
 ```bash
 pip install -r requirements.txt
 ```
-
----
 
 ## ▶️ Run the Project
 
@@ -70,49 +82,24 @@ pip install -r requirements.txt
 python main.py
 ```
 
-Press **Q** to quit the application.
+## 🎯 Project Purpose
 
----
+MagicBloom demonstrates how computer vision and graphical programming can be combined to create an interactive and visually engaging application.
 
-## 📸 How It Works
+## 🚀 Future Improvements
 
-1. Open the webcam.
-2. Detect up to two hands using MediaPipe.
-3. Calculate the center point between the hands.
-4. Measure the distance between the hands.
-5. Display a flower at the center.
-6. Increase the flower size as the hands move apart.
-
----
-
-## 🚀 Future Enhancements
-
-- ✨ Bloom animation
-- 🌈 Glow effect
-- 🌿 Stem and leaves
-- 🦋 Butterfly animation
-- 🎵 Background music
-- 📷 Screenshot feature
-- 🎮 Gesture-controlled interactions
-
----
+* Add more hand gestures
+* Add additional visual effects
+* Improve animation performance
+* Add sound effects
+* Create a web-based version
+* Add a project demonstration video
 
 ## 👨‍💻 Author
 
-**Sriram Gandhi Prabha Veluchamy**
+**Prabha Veluchamy**
 
-Assistant Professor
+M.E. Computer Science and Engineering
+Artificial Intelligence | Computer Vision | Generative AI
 
-M.E. Computer Science (Artificial Intelligence & Data Analytics)
-
-Sri Vidya College of Engineering and Technology
-
-Virudhunagar, Tamil Nadu, India
-
----
-
-## 📜 License
-
-This project is developed for educational and demonstration purposes.
-
-Feel free to modify and extend it for learning and research.
+GitHub: [PrabhaVeluchamy](https://github.com/PrabhaVeluchamy)
